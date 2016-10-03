@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import $ from 'jquery';
+import {Router, Route, hashHistory} from 'react-router'
 import NavBar from './navigation'
+import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import CategoryPage from './categoryPage'
 
 
 var App = React.createClass({
@@ -13,6 +14,8 @@ var App = React.createClass({
       <div>
         <NavBar />
         {this.props.children}
+        <br/>
+         <Footer />
       </div>
     )
   }
@@ -61,11 +64,11 @@ var Water = React.createClass ({
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-    <Route path="air" component={Air}></Route>
-    <Route path="honey" component={Honey}></Route>
-    <Route path="land" component={Land}></Route>
-    <Route path="seeds" component={Seeds}></Route>
-    <Route path="water" component={Water}></Route>
+      <Route path="air" component={CategoryPage}></Route>
+      <Route path="honey" component={Honey}></Route>
+      <Route path="land" component={Land}></Route>
+      <Route path="seeds" component={Seeds}></Route>
+      <Route path="water" component={Water}></Route>
     </Route>
   </Router>
-  , document.getElementById('root'));
+  ,document.getElementById('root'));

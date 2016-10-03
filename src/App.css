@@ -77,6 +77,16 @@ https://hpneo.github.io/gmaps/examples/static_markers.html*/
   color: #242d39;
 }*/
 
+/*--------Footer CSS Below---------*/
+
+.footer .panel-custom {
+    background: #ebf3ff;
+    color: black;
+}
+
+/*--------Footer CSS Above---------*/
+
+
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > li > a {
     color: #FFF3EC;
