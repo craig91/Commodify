@@ -1,0 +1,221 @@
+/* http://paletton.com/palette.php?uid=30n0u0k5et%2B0-Rx2sD98NpBd8lB 
+http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3
+http://kenwheeler.github.io/slick/
+spycolor.com
+https://hpneo.github.io/gmaps/examples/static_markers.html*/
+
+body {
+  font-family: 'Special Elite', cursive;
+  background: #FFF3EC;
+}
+
+#cooljumbo {
+  background-color: #F5E3E0;
+  background-image: url("../images/sepia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #B4CCAB/*#efd7c8*/;
+  text-shadow: 2px 2px #1C0702;
+}
+.textbox {
+  background-color: #B1B6BE;
+  max-width: 80%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px #888888;
+}
+.miniform {
+  margin: 20px 10px 10px;
+}
+/*.jumbotron {
+position: relative;
+background-image: url("../images/sepiacrop.jpg");
+background: no-repeat center center;
+background-size: 100% 100%;
+}*/
+.my-btn{
+    background: #30697A;
+    border-color: #A8C1D5;
+    color: #F5E3E0;
+}
+.my-btn:hover { 
+  border-color: #C0C0C0; 
+  background-color: #C0C0C0; 
+}
+/*.img-responsive {
+  max-height: 500px;
+  width: auto;
+  display: block;
+}
+/*.thumbnail {
+  max-width: 350px;
+  max-height: 100%;
+}*/
+.modal-juliet {
+  max-height: calc(100% - 100px);
+  position: fixed;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.more {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.read-more-link {
+  max-width: 80%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #593851;
+}
+
+.read-less-link {
+  max-width: 80%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #593851;
+}
+.read-more-link:hover {
+  text-decoration: none;
+  color:#5b7291;
+}
+.read-less-link:hover {
+  text-decoration: none;
+  color: #5b7291;
+}
+
+footer {
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+}
+/*===================*/
+.navbar {
+  background-color: #242d39;
+  border-color: #b4ccab;
+}
+.navbar .navbar-brand {
+  color: #fff3ec;
+}
+.navbar .navbar-brand:hover {
+  background-color: #B4CCAB;
+  color: #242d39;
+}
+.navbar .navbar-text {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > a {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > a:hover {
+  background-color: #B4CCAB;
+  color: #242d39;
+}
+/*
+.navbar .navbar-nav > li > .dropdown-menu {
+  background-color: #242d39;
+}*/
+.navbar .navbar-nav > li > .dropdown-menu > li > a {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > a:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #CCA994;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a {
+  color: #fff3ec;
+  background-color: #242d39;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar-toggle {
+  border-color: #FFF3EC;
+}
+.navbar-toggle :hover {
+  border-color: #b4ccab;
+}
+.navbar-collapse {
+  border-color: #CCA994;
+  color: #FFF3EC;
+}
+.icon-bar {
+  background-color: #FFF3EC;
+}
+#juno:hover {
+  background-color: #8BAE7E;
+}
+
+/*.navbar .navbar-link {
+  color: #fff3ec;
+}
+.navbar .navbar-link:hover {
+  color: #242d39;
+}*/
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFF3EC;
+  }
+ /* .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #242d39;
+  }*/
+ .navbar .navbar-nav .open .dropdown-menu > .active > a,
+  .navba .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #FFF3EC;
+    background-color: #B4CCAB;
+  }
+}
+/* Mobile */
+@media (max-width: 767px) {
+    .slider-size {
+        width: auto;
+    }
+    .slider-size > img {
+         height: 50%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        width: auto;
+    }
+    .slider-size > img {
+        height: 50%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         width: 150px;
+    }
+    .slider-size > img {
+        height: 80%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        width: 350px;
+    }
+    .slider-size > img {
+        height: 60%;
+    }
+}
