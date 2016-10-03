@@ -6,7 +6,7 @@ import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import CategoryPage from './categoryPage'
-
+import Carousel from './carousel'
 
 var App = React.createClass({
   render: function () {
@@ -14,6 +14,7 @@ var App = React.createClass({
       <div>
         <NavBar />
         {this.props.children}
+        <Carousel />
         <br/>
          <Footer />
       </div>
