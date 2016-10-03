@@ -8,18 +8,23 @@ const Product = React.createClass({
 		return {name: "", image: "", description: "", price: ""}
 	},
 	componentDidMount(){
-		this.props.params.name
+		let product = this.props.params.name
+		Switch (product){
+			case "water"
+				this.setState({name: data.getWater().name, image: data.getWater().images, description: data.getWater().description, price: data.getWater()})
+			break;
+		}	
 	},
 	render() {
 		return (
 			<div>
-				<h1>PRODUCT NAME</h1>
+				<h1>{this.state.name}</h1>
 					
-					<img src="PRODUCT URL" alt="PRODUCT NAME"></img>
+					<img src={this.state.image} alt={this.state.name}></img>
 
-					<p>PRODUCT DESCRIPTION</p>
+					<p>{this.state.description}</p>
 
-					<h3>PRODUCT PRICE</h3>
+					<h3>${this.state.price}</h3>
 			</div>
 		)
 	}
