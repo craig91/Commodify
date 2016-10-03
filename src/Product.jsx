@@ -8,11 +8,29 @@ const Product = React.createClass({
 		return {name: "", image: "", description: "", price: ""}
 	},
 	componentDidMount(){
-		let product = this.props.params.name
-		Switch (product){
-			case "water"
-				this.setState({name: data.getWater().name, image: data.getWater().images, description: data.getWater().description, price: data.getWater()})
-			break;
+		let category = this.props.params.category
+		let prodName = this.props.params.product
+		Switch (category){
+			case "water":
+				let product = data.getWater().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+				break;
+			case "air":
+				let product = data.getAir().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+			case "seeds":
+				let product = data.getSeeds().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+			case "land":
+				let product = data.getLand().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+			case "thing":
+				let product = data.getThing().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+			case "nextThing":
+				let product = data.getnextThing().filter(prodObj => prodName === prodObj.name ? prodObj : null);
+				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
+				break;
 		}	
 	},
 	render() {
