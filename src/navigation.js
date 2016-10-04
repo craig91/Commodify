@@ -20,11 +20,11 @@ var NavBar = React.createClass({
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
-              <li><Link to="/" params={{category: '/air'}}>Air</Link></li>
-              <li><Link to="/" params={{category: '/honey'}}>Honey</Link></li>
-              <li><Link to="/" params={{category: '/land'}}>Land</Link></li>
-              <li><Link to="/" params={{category: '/seeds'}}>Seeds</Link></li>
-              <li><Link to="/" params={{category: '/water'}}>Water</Link></li>
+              <li><Link to="/air">Air</Link></li>
+              <li><Link to="/honey">Honey</Link></li>
+              <li><Link to="/land">Land</Link></li>
+              <li><Link to="/seeds">Seeds</Link></li>
+              <li><Link to="/water">Water</Link></li>
             </ul>
           </div>
         </nav>
