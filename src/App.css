@@ -9,6 +9,13 @@ https://hpneo.github.io/gmaps/examples/static_markers.html*/
   background-color: #242d39;
   border-color: #b4ccab;
 }
+
+/*This holds the navbar in place at the top of the page.*/
+.nav-container{
+  margin-top: 35px;
+  display: block;
+}
+
 .navbar .navbar-brand {
   color: #fff3ec;
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router'
+import {Router, Route, Link, browserHistory} from 'react-router'
 import NavBar from './navigation'
 import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import CategoryPage from './categoryPage'
+import Product from './Product'
 
 
 var App = React.createClass({
@@ -21,54 +22,13 @@ var App = React.createClass({
   }
 })
 
-var Air = React.createClass ({
-  render: function () {
-    return (
-      <div></div>
-    )
-  }
-})
 
-var Honey = React.createClass ({
-  render: function () {
-    return (
-      <div></div>
-    )
-  }
-})
-
-var Land = React.createClass ({
-  render: function () {
-    return (
-      <div></div>
-    )
-  }
-})
-
-var Seeds = React.createClass ({
-  render: function () {
-    return (
-      <div></div>
-    )
-  }
-})
-
-var Water = React.createClass ({
-  render: function () {
-    return (
-      <div></div>
-    )
-  }
-})
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route path="air" component={CategoryPage}></Route>
-      <Route path="honey" component={Honey}></Route>
-      <Route path="land" component={Land}></Route>
-      <Route path="seeds" component={Seeds}></Route>
-      <Route path="water" component={Water}></Route>
+      <Route path=":category" component={CategoryPage}></Route>
+      <Route path='/:category/:id' component={Product}></Route>
     </Route>
   </Router>
-  ,document.getElementById('root'));
+,document.getElementById('root'));
