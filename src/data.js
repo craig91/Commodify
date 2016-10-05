@@ -69,6 +69,7 @@ let data = {
 
 		{id: "langese-honey", name: "Langnese Honey, Summer Flowers - 17.6 oz jar", price: 112.99, image: "http://i.imgur.com/NkUQHicl.png", description: "US grade A. Since 1927. The brand that stands for nature. 100% natural. Premium quality from Germany. Golden clear bee honey from lush blooming natural landscapes blessed by the sun. Langnese Honey has been known for purity and high quality since 1927. Product of Germany."}],
 	carousel: ["http://i.imgur.com/Fz1CTWW.jpg", "http://i.imgur.com/NWD4XCg.png", "http://i.imgur.com/xQyUeyb.jpg", "http://i.imgur.com/RMgbbQT.jpg", "http://i.imgur.com/C4iuIDV.jpg" ]
+
 };
 
 data.waterGet = function () {

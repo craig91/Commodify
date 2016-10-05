@@ -87,12 +87,23 @@ https://hpneo.github.io/gmaps/examples/static_markers.html*/
 /*--------Footer CSS Below---------*/
 
 .footer .panel-custom {
-    background: #ebf3ff;
-    color: black;
+  position: fixed;
+  height: 20px;
+  line-height: 8px;
+  font-size: 12px;
+  margin-top: 4px;
+  padding-bottom: 4px;
+  bottom: 0;
+  width: 100%;
+  background: #ebf3ff;
+  color: black;
 }
 
 /*--------Footer CSS Above---------*/
-
+.productPic {
+  height: 100px;
+  width: auto;
+}
 
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > li > a {
