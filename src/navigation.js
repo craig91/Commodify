@@ -20,10 +20,10 @@ var NavBar = React.createClass({
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
               <li><Link to="air">Air</Link></li>
-              <li><Link to="/honey">Honey</Link></li>
-              <li><Link to="/grains">Grains</Link></li>
-              <li><Link to="/seeds">Seeds</Link></li>
-              <li><Link to="/water">Water</Link></li>
+              <li><Link to="honey">Honey</Link></li>
+              <li><Link to="grains">Grains</Link></li>
+              <li><Link to="seeds">Seeds</Link></li>
+              <li><Link to="water">Water</Link></li>
             </ul>
           </div>
         </nav>
