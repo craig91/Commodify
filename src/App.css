@@ -99,7 +99,19 @@ https://hpneo.github.io/gmaps/examples/static_markers.html*/
   color: black;
 }
 
-/*--------Footer CSS Above---------*/
+/*--------HomePage CSS Above---------*/
+
+.homepage{
+font-family: 'Cormorant Upright', san-serif;
+text-align: center;
+
+}
+
+
+
+
+
+
 .productPic {
   height: 100px;
   width: auto;

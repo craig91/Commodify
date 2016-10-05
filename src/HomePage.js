@@ -5,7 +5,10 @@ import Carousel from './carousel'
 var HomePage = React.createClass({
 	render(){
 		return (
-			<Carousel />
+			<div className="homepage">
+				<h1>Premium Commodities</h1>
+				<Carousel />
+			</div>
 		)
 	}
 })
