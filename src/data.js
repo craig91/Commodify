@@ -49,7 +49,7 @@ let data = {
 
 		{id: "kamut-flour", name: "Natural Kamut Flour - Kosher, NON GMO (50lb Bag)", price: 349.99, image: "http://i.imgur.com/ZDjb2Zjl.jpg", description: "Produced from the highest quality Kamut berries, this Kamut Flour is perfect for baking. Kamut Flour is an ancient relative of modern day wheat that has a buttery flavor and is easy to digest. Legend says that Kamut grain came from the time of ancient Pharaohs. We stone grind this plump, rich grain into superb baking flour. It's also a good source of protein and dietary fiber.Like all our products, this is packaged in a sustainable, recyclable, resealable kraft bag."}, 
 
-		{id: "eden-organic", name: "Eden Organic Whole Grain Quinoa, Red (16 oz)", price: 144.99, image: "http://i.imgur.com/ZJ26fNg.jpg", description: "A gluten free food. Eden Organic Red Quinoa - an ancient Pasankalla variety organically grown on family plots at over 12,000 ft. on the Andean Plateau. The rare soil and environ grown these precious seeds. Best amino acid profile of all grain. EFAs. Quick cooking. High fiber. Easy to assimilate. B vitamins. Rich in folate and magnesium. Red Quinoa is sweeter than white. A fluffy grain as versatile as rice with a delicate nutty flavor. OCIA certified organic. Product of Bolivia."}, 
+		{id: "eden-organic", name: "Eden Organic Whole Grain Quinoa, Red (16 oz)", price: 144.99, image: "http://i.imgur.com/ZJ26fNgl.jpg", description: "A gluten free food. Eden Organic Red Quinoa - an ancient Pasankalla variety organically grown on family plots at over 12,000 ft. on the Andean Plateau. The rare soil and environ grown these precious seeds. Best amino acid profile of all grain. EFAs. Quick cooking. High fiber. Easy to assimilate. B vitamins. Rich in folate and magnesium. Red Quinoa is sweeter than white. A fluffy grain as versatile as rice with a delicate nutty flavor. OCIA certified organic. Product of Bolivia."}, 
 
 		{id: "puffed-amaranth", name: "Organic Puffed Amaranth - Kosher, NON GMO (10lb Bag)", price: 84.99, image: "http://i.imgur.com/1any7SHl.png", description: "Organic Puffed Amaranth is high in protein and Lysine - an amino acid that helps build muscle.  It's the perfect texture and flavor profile as a topping on yogurt, salads, and oatmeal.  Try adding Puffed Amaranth into your artisan breads, bagels and muffins, or use as an ingredient in granola, lifestyle bars, and clusters!  The possibilities are endless. Our Organic Puffed Amaranth is organic, kosher certified, and NON GMO.  As with all Organic Merchants products, this comes in a sustainable, recyclable, resealable Kraft bag."}, 
 
@@ -68,6 +68,7 @@ let data = {
 		{id: "sidr-honey", name: "Pure Yemen Sidr Honey", price: 129.99, image: "http://i.imgur.com/8HFT9Gkl.png", description: "Premium Sidr Honey from Yemen, Wadi Do’an. Our Sidr honey is collected during the winter season which guarantees high concentration of Sidr and outstanding quality. Yemeni Sidr Honey is considered one of the finest and most expensive honey in the world. It's distinctive taste, high nutrition value, and limited quantity gives it this reputation. Sidr honey comes from Sidr trees which grow uncultivated in the desert areas of Yemen. Honey experts have disputed about the distinctive taste and flavor of Sidr honey. Some referred such taste to the nature of the soil in such areas, others returned it to the nature of Sidr trees, and some mentioned that such distinctive taste comes as a result of the fact that bees have to travel several miles (maybe hundreds in round trip) to extract the nectar from the Sidr tree. Our Sidr honey always contains royal jelly because our beekeepers don't extract royal jelly from the harvested hives, and that's why it is sometimes called Royal Sidr honey, or Maliky Sidr honey."}, 
 
 		{id: "langese-honey", name: "Langnese Honey, Summer Flowers - 17.6 oz jar", price: 112.99, image: "http://i.imgur.com/NkUQHicl.png", description: "US grade A. Since 1927. The brand that stands for nature. 100% natural. Premium quality from Germany. Golden clear bee honey from lush blooming natural landscapes blessed by the sun. Langnese Honey has been known for purity and high quality since 1927. Product of Germany."}],
+		
 	carousel: ["http://i.imgur.com/Fz1CTWW.jpg", "http://i.imgur.com/NWD4XCg.png", "http://i.imgur.com/xQyUeyb.jpg", "http://i.imgur.com/RMgbbQT.jpg", "http://i.imgur.com/C4iuIDV.jpg" ]
 
 };
@@ -95,6 +96,5 @@ data.honeyGet = function () {
 data.getCarousel = function () {
 	return this.carousel
 }
-
 
 export default data;

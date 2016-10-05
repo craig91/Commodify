@@ -11,6 +11,7 @@ const Product = React.createClass({
 		//Getting our route name so we can render the right product 
 		let prodID = this.props.params.id;
 		let product = data[category + "Get"]().filter(prodObj => prodID === prodObj.id ? prodObj : null);
+
 		this.setState({name: product[0].name, image: product[0].image, description: product[0].description, price: product[0].price});
 	},
 	render() {
