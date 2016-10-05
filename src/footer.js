@@ -10,7 +10,6 @@ var Footer = React.createClass({
 				<div className="panel-footer panel-custom">
 					<div className="container">
 		  				<div className="row">
-			  				<br/>
 			    			<div className="col-lg-12">
 				      			<div className="col-md-8">
 					       			 <Link to='about'> About Us </Link> | 

@@ -1,38 +1,17 @@
 import React from 'react';
 import data from './data.js';
 
-//will we need this.props.url or newProps.params.name?
-
 const Product = React.createClass({
 	getInitialState(){
 		return {name: "", image: "", description: "", price: ""}
 	},
 	componentDidMount(){
-		let category = this.props.params.category
-		let prodName = this.props.params.item
-		let product
-		switch (category) {
-			case "water":
-				product = data.getWater().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-				break;
-			case "air":
-				product = data.getAir().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-			case "seeds":
-				product = data.getSeeds().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-			case "land":
-				product = data.getLand().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-			case "thing":
-				product = data.getThing().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-			case "nextThing":
-				product = data.getnextThing().filter(prodObj => prodName === prodObj.name ? prodObj : null);
-				this.setState({name: product.name, image: product.images, description: product.description, price: product.price});
-				break;
-		}	
+		//Getting the current category path so we can filter through the appropriate array
+		let category = this.props.params.category;
+		//Getting our route name so we can render the right product 
+		let prodID = this.props.params.id;
+		let product = data[category + "Get"]().filter(prodObj => prodID === prodObj.id ? prodObj : null);
+		this.setState({name: product[0].name, image: product[0].image, description: product[0].description, price: product[0].price})	
 	},
 	render() {
 		return (
