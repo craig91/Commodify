@@ -1,13 +1,22 @@
+// React Imports
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router'
-import NavBar from './navigation'
-import Footer from './footer'
+
+// CSS Imports
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+
+// App Imports
+import NavBar from './navigation'
+import Footer from './footer.js'
+
+// Page Imports
 import CategoryPage from './categoryPage.js'
 import Product from './Product.jsx'
 import HomePage from './HomePage'
+
+// Footer Imports
 import FAQ from './FAQ.js';
 import Contact from './Contact.js'
 import About from './About.js'
@@ -25,7 +34,6 @@ var App = React.createClass({
     )
   }
 })
-
 
 
 ReactDOM.render(

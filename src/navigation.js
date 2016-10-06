@@ -1,6 +1,9 @@
+// React Import
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 import {Link} from 'react-router'
+
+// CSS Import
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 // src={require('./logo-final-120.png')} 

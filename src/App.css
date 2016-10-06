@@ -1,9 +1,5 @@
-/* http://paletton.com/palette.php?uid=30n0u0k5et%2B0-Rx2sD98NpBd8lB
-http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3
-http://kenwheeler.github.io/slick/
-spycolor.com
-https://hpneo.github.io/gmaps/examples/static_markers.html*/
-/*===================*/
+
+/*--------Masonry CSS Below---------*/
 img {
   max-width: auto;
   height: 350px;
@@ -11,6 +7,8 @@ img {
 li {
   list-style-type: none;
 }
+
+/*--------NavBar CSS Below---------*/
 .navbar {
   background-color: #242d39;
   border-color: #b4ccab;
@@ -43,6 +41,7 @@ li {
 .navbar .navbar-nav > li > .dropdown-menu {
   background-color: #242d39;
 }*/
+
 .navbar .navbar-nav > li > .dropdown-menu > li > Link {
   color: #fff3ec;
 }
@@ -82,9 +81,11 @@ li {
 #juno:hover {
   background-color: #8BAE7E;
 }
+
 /*.navbar .navbar-link {
   color: #fff3ec;
 }
+
 .navbar .navbar-link:hover {
   color: #242d39;
 }*/
@@ -113,7 +114,7 @@ li {
 }
 
 .imageText {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', serif;
   font-weight: 600;
   text-align: center;
 }
@@ -134,6 +135,8 @@ li {
   width: auto;
 }
 
+/*--------Drop Down Menu CSS Below---------*/
+
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > li > Link {
     color: #FFF3EC;
@@ -142,13 +145,15 @@ li {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #242d39;
   }*/
- .navbar .navbar-nav .open .dropdown-menu > .active > Link,
-  .navba .navbar-nav .open .dropdown-menu > .active > Link:hover,
-  .navbar .navbar-nav .open .dropdown-menu > .active > Link:focus {
+
+.navbar .navbar-nav .open .dropdown-menu > .active > Link,
+.navba .navbar-nav .open .dropdown-menu > .active > Link:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > Link:focus {
     color: #FFF3EC;
     background-color: #B4CCAB;
   }
 }
+
 /* Mobile */
 @media (max-width: 767px) {
     .slider-size {
@@ -188,25 +193,3 @@ li {
         height: 60%;
     }
 }
-
-/*.App {
-  text-align: center;
-}
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-.App-intro {
-  font-size: large;
-}
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-*/

@@ -1,5 +1,7 @@
+// React Import
 import React from 'react'
-import CategoryPage from './categoryPage'
+
+// Carousel Import
 import Carousel from './carousel'
 
 var HomePage = React.createClass({

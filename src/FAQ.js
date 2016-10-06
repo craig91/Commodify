@@ -1,4 +1,7 @@
+// React Import
 import React from 'react'
+
+// CSS Import
 import 'bootstrap/dist/css/bootstrap.css';
 
 var FAQ = React.createClass({

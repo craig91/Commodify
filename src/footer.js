@@ -1,5 +1,8 @@
+// React Import
 import React from 'react'
 import {Link} from 'react-router'
+
+// CSS Import
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
@@ -18,7 +21,7 @@ var Footer = React.createClass({
 					       			 <Link to='/company/faq'> FAQ</Link> 
 					      		</div>
 					      		<div >
-					       		 	<p className="muted pull-right">© 2016 COMODiFi. All rights reserved</p>
+					       		 	 <p className="muted pull-right">© 2016 COMODiFi. All rights reserved</p>
 					      		</div>
 				    		</div>
 			  			</div>
