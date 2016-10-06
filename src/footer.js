@@ -6,17 +6,18 @@ import './App.css';
 var Footer = React.createClass({
 	render(){
 		return (
-			<footer className="footer navbar-fixed-bottom">
+			<footer className="footer ">
 				<div className="panel-footer panel-custom">
 					<div className="container">
-		  				<div className="row">
-			    			<div className="col-lg-12">
-				      			<div className="col-md-8">
-					       			 <Link to='about'> About Us </Link> | 
-					       			 <Link to='contact'> Contact Us </Link> | 
-					       			 <Link to='faq'> FAQ</Link> 
+		  				<div >
+			    			<div >
+				      			<div >
+					       			 <Link to='/company/about'> About Us </Link> | 
+					       			 <Link to='/company/contact'> Contact Us </Link> | 
+					       			 <Link to='/company/nonprofits'> NonProfits </Link> | 
+					       			 <Link to='/company/faq'> FAQ</Link> 
 					      		</div>
-					      		<div className="col-md-4">
+					      		<div >
 					       		 	<p className="muted pull-right">© 2016 COMODiFi. All rights reserved</p>
 					      		</div>
 				    		</div>

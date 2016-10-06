@@ -27,7 +27,7 @@ var CategoryPage = React.createClass({
 
 				<div className="row">
 
-					<div className="col-md-4 productPic ">{categoryResults[0]}</div>
+					<div>{categoryResults[0]}</div>
 
 				</div>
 			</div>

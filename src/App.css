@@ -85,29 +85,36 @@ https://hpneo.github.io/gmaps/examples/static_markers.html*/
 
 /*--------Footer CSS Below---------*/
 
-.footer .panel-custom {
-  position: fixed;
+.footer {
+  /*position: fixed;*/
   height: 20px;
   line-height: 8px;
   font-size: 12px;
   margin-top: 4px;
   padding-bottom: 4px;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
-  background: #ebf3ff;
-  color: black;
+  /*background: #ebf3ff;*/
+
 }
 
-/*--------HomePage CSS Above---------*/
+/*--------HomePage CSS Below---------*/
 
 .homepage{
-font-family: 'Cormorant Upright', san-serif;
-text-align: center;
+  font-family: 'Cormorant Upright', san-serif;
+  text-align: center;
 
 }
 
+/*--------FAQ CSS Below---------*/
 
+.question{
+  font-weight: bold;
+}
 
+.github-list{
+  list-style-type: none;
+}
 
 
 
