@@ -91,30 +91,47 @@ li {
 
 /*--------Footer CSS Below---------*/
 
-.footer .panel-custom {
-  position: fixed;
+.footer {
+  /*position: fixed;*/
   height: 20px;
   line-height: 8px;
   font-size: 12px;
   margin-top: 4px;
-  padding-bottom: 8px;
-  bottom: 0;
+  padding-bottom: 4px;
+  bottom: 10px;
   width: 100%;
-  background: #ebf3ff;
-  color: black;
+  /*background: #ebf3ff;*/
+
 }
 
-/*--------HomePage CSS Above---------*/
+/*--------HomePage CSS Below---------*/
 
 .homepage .title {
   font-family: 'Cormorant Upright', serif;
   font-weight: 700;
   text-align: center;
 }
+
 .imageText {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   text-align: center;
+}
+
+/*--------FAQ CSS Below---------*/
+
+.question{
+  font-weight: bold;
+}
+
+.github-list{
+  list-style-type: none;
+}
+
+
+.productPic {
+  height: 100px;
+  width: auto;
 }
 
 @media (max-width: 767px) {
