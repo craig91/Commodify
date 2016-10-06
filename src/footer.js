@@ -1,5 +1,5 @@
-import React from 'react'
-import {Link} from 'react-router'
+import React from 'react';
+import {Link} from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
@@ -15,6 +15,7 @@ var Footer = React.createClass({
 					       			 <Link to='about'> About Us </Link> | 
 					       			 <Link to='contact'> Contact Us </Link> | 
 					       			 <Link to='faq'> FAQ</Link> 
+					       			 <Link to='/company/nonprofs'> Nonprofits</Link> 
 					      		</div>
 					      		<div className="col-md-4">
 					       		 	<p className="muted pull-right">© 2016 COMODiFi. All rights reserved</p>
@@ -26,6 +27,6 @@ var Footer = React.createClass({
 			</footer>
 		)
 	}
-})
+});
 
-export default Footer
+export default Footer;
