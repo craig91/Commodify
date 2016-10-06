@@ -5,7 +5,7 @@ import NavBar from './navigation'
 import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import CategoryPage from './categoryPage'
+import CategoryPage from './untitled'
 import Product from './Product.jsx'
 import HomePage from './HomePage'
 
@@ -34,4 +34,3 @@ ReactDOM.render(
     </Route>
   </Router>
 ,document.getElementById('root'));
-
