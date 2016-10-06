@@ -3,16 +3,18 @@ import data from './data.js';
 
 const Product = React.createClass({
 	getInitialState(){
-		return {name: "", image: "", description: "", price: ""}
+		return {name: "", image: "", description: "", price: "", nonprof: {}}
 	},
-	componentDidMount(){
+	componentWillMount(){
 		//Getting the current category path so we can filter through the appropriate array
 		let category = this.props.params.category;
 		//Getting our route name so we can render the right product 
 		let prodID = this.props.params.id;
 		let product = data[category + "Get"]().filter(prodObj => prodID === prodObj.id ? prodObj : null);
 
-		this.setState({name: product[0].name, image: product[0].image, description: product[0].description, price: product[0].price});
+		let nonprof = data.getNonprofs().filter( np => np.id.toLowerCase() === category ? np : null);
+
+		this.setState({name: product[0].name, image: product[0].image, description: product[0].description, price: product[0].price, nonprof: nonprof});
 	},
 	render() {
 		return (
@@ -24,6 +26,8 @@ const Product = React.createClass({
 					<p>{this.state.description}</p>
 
 					<h3>${this.state.price}</h3>
+
+					<p>Support <a href={this.state.nonprof[0].url}>{this.state.nonprof[0].name}</a> instead of throwing your money away.</p>
 			</div>
 		)
 	}
