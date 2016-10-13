@@ -13,7 +13,7 @@ var NavBar = React.createClass({
       <div className="container-fluid nav-container" >
         <nav className="navbar navbar-fixed-top">
           <div className="navbar-header">
-          <Link className="navbar-brand navImg" to="/"><img height="150" width="auto" alt="Commodifi Logo Small"/></Link>
+          <Link className="navbar-brand navImg" to="/">Commodifi Logo Small</Link>
             <button id="juno" type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
