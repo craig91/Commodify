@@ -1,6 +1,6 @@
 // React Import
-import React from 'react'
-import {Link} from 'react-router'
+import React from 'react';
+import {Link} from 'react-router';
 
 // CSS Import
 import 'bootstrap/dist/css/bootstrap.css';
@@ -30,6 +30,6 @@ var Footer = React.createClass({
 			</footer>
 		)
 	}
-})
+});
 
-export default Footer
+export default Footer;

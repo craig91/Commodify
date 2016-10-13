@@ -11,10 +11,8 @@ import data from './data.js'
 // Page Styling Import
 import Masonry from 'react-masonry-component';
 
-// var masonryOptions = {
-//     transitionDuration: 0
-// };
 var CategoryPage = React.createClass({
+
     render: function () {
       let category = this.props.params.category;
       let categoryTitle = category

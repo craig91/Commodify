@@ -1,7 +1,7 @@
 // React Imports
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, browserHistory, IndexRoute} from 'react-router'
+import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 
 // CSS Imports
 import 'bootstrap/dist/css/bootstrap.css';

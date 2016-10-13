@@ -69,7 +69,7 @@ let data = {
 
 		{id: "langese-honey", name: "Langnese Honey, Summer Flowers - 17.6 oz jar", price: 112.99, image: "http://i.imgur.com/NkUQHicl.png", description: "US grade A. Since 1927. The brand that stands for nature. 100% natural. Premium quality from Germany. Golden clear bee honey from lush blooming natural landscapes blessed by the sun. Langnese Honey has been known for purity and high quality since 1927. Product of Germany."}],
 
-	carousel: ["http://i.imgur.com/Fz1CTWW.jpg", "http://i.imgur.com/NWD4XCg.png", "http://i.imgur.com/xQyUeyb.jpg", "http://i.imgur.com/RMgbbQT.jpg", "http://i.imgur.com/C4iuIDV.jpg" ],
+	carousel: ["http://i.imgur.com/Fz1CTWW.jpg", "http://i.imgur.com/0FoNtNO.jpg", "http://i.imgur.com/fqqwCwW.jpg", "http://i.imgur.com/7YS54Vv.jpg?1", "http://i.imgur.com/ij3KfQy.jpg?1" ],
 
 	nonprofits: [
 		{id: "Air", name: "The Air Pollution and Respiratory Health Branch of the National Center for Environmental Health, Centers for Disease Control and Prevention (CDC)", awareness: "According to the 2014 WHO report, air pollution in 2012 caused the deaths of around 7 million people worldwide, an estimate roughly matched by the International Energy Agency.", description:"The center leads CDC’s fight against environmental-related respiratory illnesses, including asthma, and studies indoor and outdoor air pollution.", url: "https://www.cdc.gov/nceh/airpollution/about.htm"},
