@@ -1,4 +1,7 @@
+// React Import
 import React from 'react';
+
+// Data Import
 import data from './data.js';
 
 const Product = React.createClass({

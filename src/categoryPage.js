@@ -1,7 +1,14 @@
+// React Import
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import data from './data.js'
 import {Link} from 'react-router'
+
+// CSS Import
+import 'bootstrap/dist/css/bootstrap.css';
+
+// Data Import
+import data from './data.js'
+
+// Page Styling Import
 import Masonry from 'react-masonry-component';
 
 var CategoryPage = React.createClass({
@@ -22,15 +29,14 @@ var CategoryPage = React.createClass({
         )}))
       }
       categoryTitle.charAt( categoryTitle.length-1 ) === "s" ?
-          categoryTitle = categoryTitle.slice(0, -1) : null;
+      categoryTitle = categoryTitle.slice(0, -1) : null;
         return (
-			<div className="container">
-      <h1 className='title'>{categoryTitle[0].toUpperCase() + categoryTitle.substring(1, categoryTitle.length) +" Commodities"}</h1>
-      <Masonry>
-          {categoryResults}
-      </Masonry>
-
-			</div>
+    			<div className="container">
+            <h1 className='title'>{categoryTitle[0].toUpperCase() + categoryTitle.substring(1, categoryTitle.length) +" Commodities"}</h1>
+            <Masonry>
+                {categoryResults}
+            </Masonry>
+    			</div>
         );
     }
 });
