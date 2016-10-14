@@ -13,11 +13,12 @@ var NavBar = React.createClass({
       <div className="container-fluid nav-container" >
         <nav className="navbar navbar-fixed-top">
           <div className="navbar-header">
-          <Link className="navbar-brand navImg" to="/"><img height="150" width="auto" alt="Commodifi Logo Small"/></Link>
+          <Link className="navbar-brand navImg" to="/">Commodifi Logo Small</Link>
             <button id="juno" type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
+              <a href="http://www.linkedin.com"> <img src="http://i.imgur.com/we2fKlS.png?1" alt="LinkedIn"/> </a>
             </button>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
@@ -36,3 +37,6 @@ var NavBar = React.createClass({
 })
 
 export default NavBar
+
+
+

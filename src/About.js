@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 var About = React.createClass({
 	render(){
 		return(
-			<div className="container">
+			<div className="about container">
 			 	<div className="row">
 	   				<div className="col-sm-8">
 						<h1>Learn About Us!</h1>
