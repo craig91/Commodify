@@ -18,6 +18,7 @@ var NavBar = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
+              <a href="http://www.linkedin.com"> <img src="http://i.imgur.com/we2fKlS.png?1" alt="LinkedIn"/> </a>
             </button>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
@@ -36,3 +37,6 @@ var NavBar = React.createClass({
 })
 
 export default NavBar
+
+
+

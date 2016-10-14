@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 var FAQ = React.createClass({
 	render(){
 		return(
-			<div className="container">
+			<div className="FAQ container">
 			 	<div className="row">
 	   				<div className="col-sm-8">
 						<h1>Frequently Asked Questions</h1>

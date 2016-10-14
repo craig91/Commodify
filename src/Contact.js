@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 var Contact = React.createClass({
 	render(){
 		return(
-			<div className="container">
+			<div className="contact container">
 			 	<div className="row">
 	   				<div className="col-sm-8">
 						<h1>Contact Us!</h1>
