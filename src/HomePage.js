@@ -9,7 +9,9 @@ var HomePage = React.createClass({
 		return (
 			<div className="homepage">
 				<h1>Premium Commodities</h1>
-				<Carousel />
+				<div className='commodityImg'>
+					<img src="http://www.optionsellers.com/wp-content/uploads/blog-4commodities.jpg" alt="Commodities" />
+				</div>
 			</div>
 		)
 	}

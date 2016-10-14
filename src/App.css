@@ -10,7 +10,8 @@ li {
 
 /*--------NavBar CSS Below---------*/
 .navbar {
-  background-color: #242d39;
+ /* background-color: #242d39;*/
+  background-color: #000000;
   border-color: #b4ccab;
 }
 
@@ -92,34 +93,51 @@ li {
 
 /*--------Footer CSS Below---------*/
 
-.footer {
-  /*position: fixed;*/
-  height: 20px;
-  line-height: 8px;
-  font-size: 12px;
-  margin-top: 4px;
-  padding-bottom: 4px;
-  bottom: 10px;
-  width: 100%;
-  /*background: #ebf3ff;*/
-
+.flex-container{
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #000000;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*margin-top: 10px;*/
+  color: white;
+  font-family: 'Varela Round', sans-serif;
 }
+
+.footer-info{
+  /*padding-left: 10px;*/
+  /*margin: 0;*/
+  /*width: 70%;*/
+  /*height: 80%;*/
+  position: fixed;
+}
+
 
 /*--------HomePage CSS Below---------*/
 
-.homepage .title {
-  font-family: 'Cormorant Upright', serif;
-  font-weight: 700;
+.homepage{
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 20px;
 }
 
-.imageText {
-  font-family: 'Source Sans Pro', serif;
-  font-weight: 600;
-  text-align: center;
+img {
+     height: 500px    
 }
+
+.commodityImg {
+    padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
 
 /*--------FAQ CSS Below---------*/
+.FAQ {
+    font-family: 'Varela Round', sans-serif;
+}
 
 .question{
   font-weight: bold;
@@ -133,6 +151,21 @@ li {
 .productPic {
   height: 100px;
   width: auto;
+}
+
+/*--------Nonprofit CSS Below---------*/
+.nonprofit{
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*--------Contact CSS Below---------*/
+.contact {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*--------About CSS Below---------*/
+.about {
+  font-family: 'Varela Round', sans-serif;
 }
 
 /*--------Drop Down Menu CSS Below---------*/
