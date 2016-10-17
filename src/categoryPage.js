@@ -26,7 +26,9 @@ var CategoryPage = React.createClass({
           function(element, index){
             return (
               <div key={index}>
-                <div><li className={"image-element-class " + category}> <Link to={category + '/' + element.id}><img className={category + index} alt={element.id} src={element.image}></img></Link> <p className="imageText">{element.name}<br />${element.price}</p> </li></div></div>
+                <div><li className={"image-element-class " + category}> 
+                  <Link to={category + '/' + element.id}><img className={category + index} alt={element.id} src={element.image}></img></Link> 
+                      <p className={"imageText " + category + index}>{element.name}<br />${element.price}</p> </li></div></div>
         )}))
       }
       categoryTitle.charAt( categoryTitle.length-1 ) === "s" ?
