@@ -1,0 +1,296 @@
+html {
+  height: 100%;
+}
+#root {
+  background-color: #FDEFE1;
+  color: #220606;
+}
+
+/*--------Masonry CSS Below---------*/
+img {
+  max-width: auto;
+  height: 350px;
+}
+li {
+  list-style-type: none;
+}
+
+#title {
+    font-family: 'Varela Round', sans-serif;
+}
+
+Nav {
+  font-family: 'Varela Round', sans-serif;
+  color: #FDEFE1;
+}
+
+#navColor {
+    background: #370B0A;
+}
+
+#footer-id {
+   background: #370B0A;
+}
+
+Navbar.Collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  /*height: 100vh;*/
+}
+
+.searchRow {
+  border-bottom: 1px solid #666;
+  flex-direction: column;
+  display:flex;
+  align-items: stretch;
+  position: relative; /*Sets the position relative to position absolute.*/
+}
+input {
+  /*font-size: 30px;*/
+  /*padding: 20px;*/
+  border: none;
+}
+button {
+  position: absolute; /*in Relation to position relative*/
+  right: 20px;
+  /*bottom: 20px;*/
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+button i.fa {
+  color: #ccc;
+  /*font-size: 34px;*/
+}
+
+/*--------NavBar CSS Below---------*/
+/*.navbar {
+ /* background-color: #242d39;
+  background-color: #000000;
+  border-color: #b4ccab;
+}*/
+
+/*This holds the navbar in place at the top of the page.*/
+/*.nav-container{
+  margin-top: 35px;
+  display: block;
+}
+
+.navbar .navbar-brand {
+  color: #fff3ec;
+}
+.navbar .navbar-brand:hover {
+  background-color: #B4CCAB;
+  color: #242d39;
+}
+.navbar .navbar-text {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > Link {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > Link:hover {
+  background-color: #B4CCAB;
+  color: #242d39;
+}
+/*
+.navbar .navbar-nav > li > .dropdown-menu {
+  background-color: #242d39;
+}*/
+
+/*.navbar .navbar-nav > li > .dropdown-menu > li > Link {
+  color: #fff3ec;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > Link:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #CCA994;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > Link {
+  color: #fff3ec;
+  background-color: #242d39;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar .navbar-nav > .active > Link,
+.navbar .navbar-nav > .active > Link:hover {
+  color: #242d39;
+  background-color: #b4ccab;
+}
+.navbar-toggle {
+  border-color: #FFF3EC;
+}
+.navbar-toggle :hover {
+  border-color: #b4ccab;
+}
+.navbar-collapse {
+  border-color: #CCA994;
+  color: #FFF3EC;
+}
+.icon-bar {
+  background-color: #FFF3EC;
+}
+#juno:hover {
+  background-color: #8BAE7E;
+}*/
+
+/*.navbar .navbar-link {
+  color: #fff3ec;
+}
+
+.navbar .navbar-link:hover {
+  color: #242d39;
+}*/
+
+/*--------Footer CSS Below---------*/
+
+/*.footer-container{
+  display: flex;
+  align-items: flex-end, center;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}*/
+
+
+.flex-container{
+  display: flex;
+  flex-direction: column-reverse;
+  background: #370B0A;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*margin-top: 10px;*/
+  color: #FDEFE1;
+  font-family: 'Varela Round', sans-serif;
+  float: bottom;
+}
+
+.footer-info{
+/*  padding-left: 0px;
+  margin: 0px;
+  margin-right: 0;*/
+  width: 50%;
+  height: 0;
+  position: absolute;
+}
+
+
+/*--------HomePage CSS Below---------*/
+
+.homepage{
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 20px;
+}
+
+.home {
+     height: 500px    
+}
+
+.commodityImg {
+    padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/*--------FAQ CSS Below---------*/
+.FAQ {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.question{
+  font-weight: bold;
+}
+
+.github-list{
+  list-style-type: none;
+}
+
+
+.productPic {
+  height: 100px;
+  width: auto;
+}
+
+/*--------Nonprofit CSS Below---------*/
+.nonprofit{
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*--------Contact CSS Below---------*/
+.contact {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*--------About CSS Below---------*/
+.about {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*--------Drop Down Menu CSS Below---------*/
+
+/*@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > li > Link {
+    color: #FFF3EC;
+  }*/
+ /* .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #242d39;
+  }*/
+/*
+.navbar .navbar-nav .open .dropdown-menu > .active > Link,
+.navba .navbar-nav .open .dropdown-menu > .active > Link:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > Link:focus {
+    color: #FFF3EC;
+    background-color: #B4CCAB;
+  }
+}*/
+
+/* Mobile */
+@media (max-width: 767px) {
+    .slider-size {
+        width: auto;
+    }
+    .slider-size > img {
+         height: 50%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        width: auto;
+    }
+    .slider-size > img {
+        height: 50%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         width: 150px;
+    }
+    .slider-size > img {
+        height: 80%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        width: 350px;
+    }
+    .slider-size > img {
+        height: 60%;
+    }
+}
