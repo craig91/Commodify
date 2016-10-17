@@ -145,7 +145,127 @@ li {
   padding-bottom: 20px;
 }
 
+/*--------Product CSS Below---------*/
+.product{
+  font-family: 'Varela Round', sans-serif;
+  padding-right: 35px;
+  padding-left: 35px;
+}
 
+.buy{
+  position: relative;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.price {
+  display: inline;
+}
+
+.productP{
+  padding-top: 15px;
+}
+
+/*--------Category CSS Below---------*/
+/*335 x 350*/
+
+.container{
+  font-family: 'Varela Round', sans-serif;
+}
+
+li.image-element-class.water{
+  max-width: 335px;
+}
+
+.water0{
+  display: block;
+  margin-left: 72.525px;
+  margin-right: 72.525px;
+}
+
+.water1 {
+  display: block;
+  margin-left: 124.5705px;
+  margin-right: 124.5705px;
+}
+
+.water2{
+  width: 335px;
+}
+
+.water3{
+   width: 335px; 
+}
+
+.water4{
+  margin-right: 34.336px;
+  margin-left: 34.336px;
+}
+
+.water5{
+  margin-right: 61.312px;
+  margin-left: 61.312px;
+}
+
+li.image-element-class.air{
+  max-width: 335px;
+}
+
+.air0 {
+  margin-right: 110.8985px;
+  margin-left: 110.8985px;
+}
+.air1 {
+  width: 335px;
+}
+
+.air2 {
+  width: 335px;
+}
+
+.air3 {
+  width: 335px;
+}
+
+.air4 {
+  margin-right: 117.461px;
+  margin-left: 117.461px;
+}
+
+.air5 {
+  margin-right: 106.25px;
+  margin-left: 106.25px;
+}
+
+li.image-element-class.grains{
+  max-width: 335px;
+}
+
+.grains0 {
+  margin-right: 32.1485px;
+  margin-left: 32.1485px;
+}
+.grains1 {
+  margin-right: 55.3905px;
+  margin-left: 55.3905px;
+}
+.grains4 {
+  margin-right: 19.0235px;
+  margin-left: 19.0235px;
+}
+.grains4 p {
+ position: absolute;
+  z-index: 100;
+}
+
+/*--------NonProfits CSS Below---------*/
+.nonprofits{
+  font-family: 'Varela Round', sans-serif;
+  padding-right: 35px;
+  padding-left: 35px;
+}
 
 
 /*--------FAQ CSS Below---------*/

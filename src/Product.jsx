@@ -21,16 +21,18 @@ const Product = React.createClass({
 	},
 	render() {
 		return (
-			<div>
+			<div className="product">
 				<h1>{this.state.name}</h1>
 					
 					<img src={this.state.image} alt={this.state.name}></img>
 
-					<p>{this.state.description}</p>
+					<p className="productP">{this.state.description}</p>
 
-					<h3>${this.state.price}</h3>
+					<h3 className="price">${this.state.price}</h3> <button className="buy">Add to Cart</button>
 
-					<p>Support <a href={this.state.nonprof[0].url}>{this.state.nonprof[0].name}</a> instead of throwing your money away.</p>
+					<br/>
+
+					<p className="productP">Support <a href={this.state.nonprof[0].url}>{this.state.nonprof[0].name}</a> instead of throwing your money away.</p>
 			</div>
 		)
 	}

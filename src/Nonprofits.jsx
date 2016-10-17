@@ -11,7 +11,7 @@ const NonProfits = React.createClass({
 	render(){
 		let stuff = this.state.orgs.map(npObj => <div key={npObj.name}> <h3>{npObj.id}</h3> <br/> <p>{npObj.awareness}</p> <br/> <a href={npObj.url}>{npObj.name}</a> <br/> <p>{npObj.description}</p> </div>)
 		return (
-			<div className='nonprofit'>
+			<div className='nonprofits'>
 				<h1>Don't waste your money on our overpriced garbage. Support these great Non-Profit organizations instead!</h1>
 						{stuff}
 			</div>
