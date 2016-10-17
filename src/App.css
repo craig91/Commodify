@@ -1,6 +1,9 @@
 html {
   height: 100%;
 }
+#root {
+  color: #220606;
+}
 
 /*--------Masonry CSS Below---------*/
 img {
@@ -11,88 +14,55 @@ li {
   list-style-type: none;
 }
 
-/*--------NavBar CSS Below---------*/
-.navbar {
- /* background-color: #242d39;*/
-  background-color: #000000;
-  border-color: #b4ccab;
+#title {
+    font-family: 'Varela Round', sans-serif;
 }
 
-/*This holds the navbar in place at the top of the page.*/
-.nav-container{
-  margin-top: 35px;
-  display: block;
+Nav {
+  font-family: 'Varela Round', sans-serif;
+  color: #FDEFE1;
 }
 
-.navbar .navbar-brand {
-  color: #fff3ec;
-}
-.navbar .navbar-brand:hover {
-  background-color: #B4CCAB;
-  color: #242d39;
-}
-.navbar .navbar-text {
-  color: #fff3ec;
-}
-.navbar .navbar-nav > li > Link {
-  color: #fff3ec;
-}
-.navbar .navbar-nav > li > Link:hover {
-  background-color: #B4CCAB;
-  color: #242d39;
-}
-/*
-.navbar .navbar-nav > li > .dropdown-menu {
-  background-color: #242d39;
-}*/
-
-.navbar .navbar-nav > li > .dropdown-menu > li > Link {
-  color: #fff3ec;
-}
-.navbar .navbar-nav > li > .dropdown-menu > li > Link:hover {
-  color: #242d39;
-  background-color: #b4ccab;
-}
-.navbar .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #CCA994;
-}
-.navbar .navbar-nav .open .dropdown-menu > .active > Link {
-  color: #fff3ec;
-  background-color: #242d39;
-}
-.navbar .navbar-nav .open .dropdown-menu > .active > a:hover {
-  color: #242d39;
-  background-color: #b4ccab;
-}
-.navbar .navbar-nav > .active > Link,
-.navbar .navbar-nav > .active > Link:hover {
-  color: #242d39;
-  background-color: #b4ccab;
-}
-.navbar-toggle {
-  border-color: #FFF3EC;
-}
-.navbar-toggle :hover {
-  border-color: #b4ccab;
-}
-.navbar-collapse {
-  border-color: #CCA994;
-  color: #FFF3EC;
-}
-.icon-bar {
-  background-color: #FFF3EC;
-}
-#juno:hover {
-  background-color: #8BAE7E;
+#navColor {
+    background: #370B0A;
 }
 
-/*.navbar .navbar-link {
-  color: #fff3ec;
+#footer-id {
+   background: #370B0A;
 }
 
-.navbar .navbar-link:hover {
-  color: #242d39;
-}*/
+Navbar.Collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  /*height: 100vh;*/
+}
+
+.searchRow {
+  border-bottom: 1px solid #666;
+  flex-direction: column;
+  display:flex;
+  align-items: stretch;
+  position: relative; /*Sets the position relative to position absolute.*/
+}
+input {
+  /*font-size: 30px;*/
+  /*padding: 20px;*/
+  border: none;
+}
+button {
+  position: absolute; /*in Relation to position relative*/
+  right: 20px;
+  /*bottom: 20px;*/
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+button i.fa {
+  color: #ccc;
+  /*font-size: 34px;*/
+}
 
 /*--------Footer CSS Below---------*/
 
